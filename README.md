@@ -5,6 +5,7 @@
 
 * owarai.py (標準出力)
 * owarai-slack-notify.py (slackのIncoming Webhook URLに通知)
+* owarai-line-notify.py (LINE Notifyに通知)
 
 ## 起動方法
 ### 標準出力
@@ -12,7 +13,7 @@
 python3 owarai.py
 ```
 
-### Slack通知
+### Slack・LINE通知
 Rasberry piで `crontab` に以下のように設定することで毎朝6時にSlackの通知が届くようになります。
 
 ```
